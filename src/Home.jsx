@@ -1,28 +1,15 @@
 import React from 'react';
-import { Link, Outlet, useLocation } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Texto from './Texto';
-import './App.css';
+import Detalhes from './Detalhes';
 
-const Home = () => {
-  const location = useLocation();
-  const estaNaRaiz = location.pathname === '/';
-
+export default function Home() {
   return (
     <div className="home">
-      <nav>
-        <Link to="/">Texto</Link> |{' '}
-        <Link to="/detalhes">Detalhes</Link>
-      </nav>
-
-      <hr />
-
-      {/* Exibe o componente Texto apenas quando estiver na rota / */}
-      {estaNaRaiz && <Texto />}
-
-      {/* Exibe o conteúdo da rota filha, como Detalhes */}
-      <Outlet />
+      <Routes>
+        <Route path="/" element={<Texto />} />
+        <Route path="/detalhes" element={<Detalhes />} />
+      </Routes>
     </div>
   );
-};
-
-export default Home;
+}
