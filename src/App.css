@@ -6,7 +6,8 @@
 
 body, html, #root, .app {  /*Faz todos os componentes subirem para o topo da tela  */
   height: 100%;
-  overflow-x: hidden;
+  overflow-y: auto;
+  
 }
 
 /* HEADER fixo no topo */
@@ -49,7 +50,7 @@ body, html, #root, .app {  /*Faz todos os componentes subirem para o topo da tel
 
 .home{
   height:auto; /*permite o background da home acompanhar novos textos inseridos  /*
-  align-content:center; /* centraliza texto na vertical da home  */
+  align-content:center; centraliza texto na vertical da home  */
   background-color: rgb(236, 232, 232);
   width: 1000px;
   margin-left: 250px;
@@ -57,12 +58,7 @@ body, html, #root, .app {  /*Faz todos os componentes subirem para o topo da tel
   margin-top: 70px;
   
 }
-.texto{
-  
-  display:contents;
-  position:relative;
-  color: rgb(72, 71, 73);
-}
+
 
 .texto p{
   margin-bottom: 20px; /* Espaçamento entre os parágrafos */
@@ -86,7 +82,7 @@ body, html, #root, .app {  /*Faz todos os componentes subirem para o topo da tel
   align-content:center; /* centraliza texto na vertical da home  */
   background-color: rgb(240, 240, 240);
   width: 1000px;
-  margin-left: 250px;
+  margin-left: 10px;
   text-align: center; /* centraliza textos na horizontal da home  */
   margin-top: 70px;
 
@@ -186,13 +182,41 @@ body, html, #root, .app {  /*Faz todos os componentes subirem para o topo da tel
   
 }
 
-.texto{
-  height:auto; /*permite o background da home acompanhar novos textos inseridos  /*
-  align-content:center; /* centraliza texto na vertical da home  */
+.texto {
+  height: auto;
   background-color: rgb(236, 232, 232);
   width: 1000px;
-  margin-left: 250px;
-  text-align: center; /* centraliza textos na horizontal da home  */
-  margin-top: 70px;
-  
+  margin: 70px auto; /* Centraliza horizontalmente */
+  text-align: justify; /* Ou 'center', se quiser texto centralizado */
+  padding: 40px 60px 100px 60px; /* Espaçamento interno com folga inferior */
+  box-sizing: border-box;
+  color: rgb(72, 71, 73);
+}
+
+.texto h1{
+  text-align: center;
+}
+
+
+
+/* Estilo para linha separadora acima do link */
+.linha-separadora {
+  border-top: 1px solid #999;
+  margin: 30px auto 10px auto;
+  width: 60%;
+}
+
+/* Estilo específico para o link que fica dentro de Texto e Detalhes */
+.link-voltar {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  color: #1e3a8a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link-voltar:hover {
+  color: #0056b3;
+  text-decoration: underline;
 }
