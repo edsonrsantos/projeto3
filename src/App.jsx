@@ -7,6 +7,7 @@ import Header from './Header'
 import Footer from './Footer'
 import Receitas from './receitas'
 import Development from './assets/development.svg'
+import Detalhes from './Detalhes'
 
 function App() {
   
@@ -14,13 +15,14 @@ function App() {
     <div className='app'>
       <BrowserRouter>
       <Header />
-
+      
        <div className='content'>    
          <Routes>
           <Route path="/" element={<Home />}/> 
           <Route path="/contatos" element={<Contatos />}/>
            <Route path="/sobre" element={<Sobre />}/>
            <Route path="/receitas" element={<Receitas />}/>
+           <Route path="/detalhes" element={<Detalhes />}/>
         </Routes>
            
            <figure className={'figureAppjsx'}>

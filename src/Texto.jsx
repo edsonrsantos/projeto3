@@ -34,24 +34,7 @@ const Texto = () => {
          <p>dfafasfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfa
          dfafasfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfa
          dfafasfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfa</p>
-         <p>dfafasfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfa
-         dfafasfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfa
-         dfafasfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfa</p>
-         <p>dfafasfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfa
-         dfafasfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfa
-         dfafasfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfa</p>
-         <p>dfafasfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfa
-         dfafasfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfa
-         dfafasfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfa</p>
-         <p>dfafasfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfa
-         dfafasfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfa
-         dfafasfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfa</p>
-         <p>dfafasfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfa
-         dfafasfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfa
-         dfafasfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfa</p>
-         <p>dfafasfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfa
-         dfafasfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfa
-         dfafasfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfa</p>
+        
 
         
          <figure className={'figuretexto'}>

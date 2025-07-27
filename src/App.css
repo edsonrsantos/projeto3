@@ -170,3 +170,18 @@ body, html, #root, .app {  /*Faz todos os componentes subirem para o topo da tel
   width: 60px;
 }
 /* -----------------------------------------------------------------------*/
+
+.nav link{
+  background-color: red;
+}
+
+.detalhes{
+  height:auto; /*permite o background da home acompanhar novos textos inseridos  /*
+  align-content:center; /* centraliza texto na vertical da home  */
+  background-color: rgb(236, 232, 232);
+  width: 1000px;
+  margin-left: 250px;
+  text-align: center; /* centraliza textos na horizontal da home  */
+  margin-top: 70px;
+  
+}
