@@ -9,8 +9,6 @@ body, html, #root, .app {  /*Faz todos os componentes subirem para o topo da tel
   overflow-x: hidden;
 }
 
-
-
 /* HEADER fixo no topo */
 .header {
   position: fixed;
@@ -41,8 +39,6 @@ body, html, #root, .app {  /*Faz todos os componentes subirem para o topo da tel
   z-index: 1000;
 }
 
-
-
 /* centraliza a Home entra a header e footer */
 .content {
   position: relative; /* permite o background da home acompanhar novos textos inseridos*/
@@ -52,10 +48,9 @@ body, html, #root, .app {  /*Faz todos os componentes subirem para o topo da tel
 }
 
 .home{
-  
-  height:auto;
+  height:auto; /*permite o background da home acompanhar novos textos inseridos  /*
   align-content:center; /* centraliza texto na vertical da home  */
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(245, 243, 243);
   width: 1000px;
   margin-left: 250px;
   text-align: center; /* centraliza textos na horizontal da home  */
@@ -73,4 +68,88 @@ body, html, #root, .app {  /*Faz todos os componentes subirem para o topo da tel
   line-height: 1.2; /* Altura da linha para melhor leitura */
 }
 
+.menu nav {    /* posicionando os links dentro do Menu */    
+  display: flex;
+  justify-content: center; /* centraliza os links horizontalmente */
+  gap: 30px;               /* espaçamento entre os links */
+  padding: 20px;
+}
+.menu a{   /*colocar cor e tamanho nos links  */
+    color: white;
+    font-size: 18px;
+    
+}
 
+.contatos{
+  height:auto;
+  align-content:center; /* centraliza texto na vertical da home  */
+  background-color: rgb(240, 240, 240);
+  width: 1000px;
+  margin-left: 250px;
+  text-align: center; /* centraliza textos na horizontal da home  */
+  margin-top: 70px;
+
+}
+
+.sobre{
+ height:auto;
+  align-content:center; /* centraliza texto na vertical da home  */
+  background-color: rgb(240, 240, 240);
+  width: 1000px;
+  margin-left: 250px;
+  text-align: center; /* centraliza textos na horizontal da home  */
+  margin-top: 70px;
+
+}
+
+/* Hover - ao passar o mouse */
+.link:hover {
+  color: #0056b3;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+
+.link {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  padding: 8px 12px;
+  transition: all 0.3s ease;
+}
+
+.active {
+  color: #ffffff;
+  background-color: #007bff;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.receitas{
+  height:auto;
+  align-content:center; /* centraliza texto na vertical da home  */
+  background-color: rgb(240, 240, 240);
+  width: 1000px;
+  margin-left: 250px;
+  text-align: center; /* centraliza textos na horizontal da home  */
+  margin-top: 70px;
+}
+
+
+.imagem1 {
+  position: fixed;     /* fixa a imagem na tela */
+  bottom: 430px;        /* posiciona imagem na vertical à esquerda, se distancia do rodapé */
+  left: 15px;          /* posiciona imagem na horizontal à esquerda,  */
+  width: 210px;        /* largura da imagem */
+}
+
+.figure {
+  margin: 0;
+  padding: 0;
+}
+
+.imagem2 {
+  position: fixed;     /* fixa a imagem na tela */
+  bottom: 100px;        /* posiciona imagem na vertical à esquerda, se distancia do rodapé */
+  left: 1290px;          /* posiciona imagem na horizontal à esquerda,  */
+  width: 210px;        /* largura da imagem */
+}
