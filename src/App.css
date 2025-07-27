@@ -50,7 +50,7 @@ body, html, #root, .app {  /*Faz todos os componentes subirem para o topo da tel
 .home{
   height:auto; /*permite o background da home acompanhar novos textos inseridos  /*
   align-content:center; /* centraliza texto na vertical da home  */
-  background-color: rgb(245, 243, 243);
+  background-color: rgb(236, 232, 232);
   width: 1000px;
   margin-left: 250px;
   text-align: center; /* centraliza textos na horizontal da home  */
@@ -58,6 +58,7 @@ body, html, #root, .app {  /*Faz todos os componentes subirem para o topo da tel
   
 }
 .texto{
+  
   display:contents;
   position:relative;
   color: rgb(72, 71, 73);
@@ -135,21 +136,37 @@ body, html, #root, .app {  /*Faz todos os componentes subirem para o topo da tel
 }
 
 
-.imagem1 {
+.imagem1Appjsx {
   position: fixed;     /* fixa a imagem na tela */
   bottom: 430px;        /* posiciona imagem na vertical à esquerda, se distancia do rodapé */
   left: 15px;          /* posiciona imagem na horizontal à esquerda,  */
   width: 210px;        /* largura da imagem */
 }
 
-.figure {
+.figureAppjsx {
   margin: 0;
   padding: 0;
 }
 
-.imagem2 {
+.imagem2Appjsx {
   position: fixed;     /* fixa a imagem na tela */
   bottom: 100px;        /* posiciona imagem na vertical à esquerda, se distancia do rodapé */
   left: 1290px;          /* posiciona imagem na horizontal à esquerda,  */
   width: 210px;        /* largura da imagem */
 }
+
+
+/* -----------------------------------------------------------------------*/
+/* posiciona figuras dentro do componente Texto na posição desejada*/
+.figuretexto {
+  position: relative; /* Define que os filhos com position absolute vão se posicionar dentro daqui */
+  height: 100px; /* Tamanho desejado para comportar a imagem */
+}
+
+.imagem1texto {
+  position: absolute;
+  bottom: 935px;   /* Ajuste conforme a posição desejada */
+  left: 365px;     /* Ajuste conforme a posição desejada */
+  width: 60px;
+}
+/* -----------------------------------------------------------------------*/

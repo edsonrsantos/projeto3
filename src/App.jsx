@@ -23,9 +23,9 @@ function App() {
            <Route path="/receitas" element={<Receitas />}/>
         </Routes>
            
-           <figure className={'figure'}>
-           <img src={Development} alt="imagem1" className={'imagem1'} />
-           <img src={Development} alt="imagem2" className={'imagem2'} />
+           <figure className={'figureAppjsx'}>
+           <img src={Development} alt="imagem1Appjsx" className={'imagem1Appjsx'} />
+           <img src={Development} alt="imagem2Appjsx" className={'imagem2Appjsx'} />
            </figure>
 
       </div>

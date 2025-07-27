@@ -1,4 +1,5 @@
 import React from 'react'
+import Development from './assets/development.svg'
 
 const Texto = () => {
   return (
@@ -53,6 +54,9 @@ const Texto = () => {
          dfafasfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfa</p>
 
         
+         <figure className={'figuretexto'}>
+        <img src={Development} alt="imagem1texto" className={'imagem1texto'} />
+        </figure>
 
 
 

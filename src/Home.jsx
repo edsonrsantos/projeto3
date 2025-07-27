@@ -9,7 +9,10 @@ const Home = () => {
     <div className='home'>
 
         <Texto />
-          
+
+     
+
+
     </div>
   )
 }
