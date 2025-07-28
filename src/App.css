@@ -53,7 +53,7 @@ body, html, #root, .app {  /*Faz todos os componentes subirem para o topo da tel
   align-content:center; centraliza texto na vertical da home  */
   background-color: rgb(236, 232, 232);
   width: 1000px;
-  margin-left: 250px;
+  margin-left: 250px; /* margem para centraliza textos na horizontal da home  */
   text-align: center; /* centraliza textos na horizontal da home  */
   margin-top: 70px;
   
@@ -82,11 +82,11 @@ body, html, #root, .app {  /*Faz todos os componentes subirem para o topo da tel
   align-content:center; /* centraliza texto na vertical da home  */
   background-color: rgb(240, 240, 240);
   width: 1000px;
-  margin-left: 10px;
+  margin-left: 250px;
   text-align: center; /* centraliza textos na horizontal da home  */
   margin-top: 70px;
-
 }
+
 
 .sobre{
  height:auto;
@@ -172,19 +172,21 @@ body, html, #root, .app {  /*Faz todos os componentes subirem para o topo da tel
 }
 
 .detalhes{
-  height:auto; /*permite o background da home acompanhar novos textos inseridos  /*
-  align-content:center; /* centraliza texto na vertical da home  */
-  background-color: rgb(236, 232, 232);
+ height: auto;
+  background-color: rgb(240, 240, 240);
   width: 1000px;
+  margin: 70px auto; /* Centraliza horizontalmente */
+  text-align:center; /* Ou 'center', se quiser texto centralizado */
+  padding: 30px 60px 100px 60px; /* Espaçamento interior do componente Detalhes */
+  box-sizing: border-box;
+  color: rgb(72, 71, 73);
   margin-left: 250px;
-  text-align: center; /* centraliza textos na horizontal da home  */
-  margin-top: 70px;
   
 }
 
 .texto {
   height: auto;
-  background-color: rgb(236, 232, 232);
+  background-color: rgb(240, 240, 240);
   width: 1000px;
   margin: 70px auto; /* Centraliza horizontalmente */
   text-align: justify; /* Ou 'center', se quiser texto centralizado */
