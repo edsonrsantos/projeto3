@@ -1,6 +1,6 @@
 import React from 'react'
 
-const sobre = () => {
+const Sobre = () => {
   return (
     <div className='sobre'>
         <h1>Sobre</h1>
@@ -9,4 +9,4 @@ const sobre = () => {
   )
 }
 
-export default sobre
+export default Sobre

@@ -99,27 +99,10 @@ body, html, #root, .app {  /*Faz todos os componentes subirem para o topo da tel
 
 }
 
-/* Hover - ao passar o mouse */
-.link:hover {
-  color: #0056b3;
-  background-color: #f0f0f0;
-  border-radius: 4px;
-}
 
-.link {
-  text-decoration: none;
-  color: #333;
-  font-size: 18px;
-  padding: 8px 12px;
-  transition: all 0.3s ease;
-}
 
-.active {
-  color: #ffffff;
-  background-color: #007bff;
-  border-radius: 4px;
-  font-weight: bold;
-}
+
+
 
 .receitas{
   height:auto;
@@ -167,9 +150,7 @@ body, html, #root, .app {  /*Faz todos os componentes subirem para o topo da tel
 }
 /* -----------------------------------------------------------------------*/
 
-.nav link{
-  background-color: red;
-}
+
 
 .detalhes{
  height: auto;
@@ -189,10 +170,11 @@ body, html, #root, .app {  /*Faz todos os componentes subirem para o topo da tel
   background-color: rgb(240, 240, 240);
   width: 1000px;
   margin: 70px auto; /* Centraliza horizontalmente */
-  text-align: justify; /* Ou 'center', se quiser texto centralizado */
-  padding: 40px 60px 100px 60px; /* Espaçamento interno com folga inferior */
+  text-align:center; /* Ou 'center', se quiser texto centralizado */
+  padding: 30px 60px 100px 60px; /* Espaçamento interior do componente Detalhes */
   box-sizing: border-box;
   color: rgb(72, 71, 73);
+  margin-left: 250px;
 }
 
 .texto h1{
@@ -221,4 +203,40 @@ body, html, #root, .app {  /*Faz todos os componentes subirem para o topo da tel
 .link-voltar:hover {
   color: #0056b3;
   text-decoration: underline;
+}
+
+
+.link {
+  color: white;
+  font-size: 18px;
+  padding: 8px 12px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.link:hover {
+  color: #0056b3;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+
+/* Ao clicar o mouse no link, deixa o ele pintado na cor azul e fonte #ffffffff "ativo" */
+.active {
+  color: #ffffff;
+  background-color: #007bff;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.produtos{
+  height:auto;
+  align-content:center; /* centraliza texto na vertical da home  */
+  background-color: rgb(240, 240, 240);
+  width: 1000px;
+  margin-left: 250px;
+  text-align: center; /* centraliza textos na horizontal da home  */
+  margin-top: 70px;
+
 }

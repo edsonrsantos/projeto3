@@ -9,7 +9,8 @@ export default function Home() {
       <Routes>
         <Route path="/" element={<Texto />} />
         <Route path="/detalhes" element={<Detalhes />} />
-      </Routes>
+       </Routes>
+       
     </div>
   );
 }
